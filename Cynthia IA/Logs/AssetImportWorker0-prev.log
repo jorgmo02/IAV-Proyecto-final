@@ -11,19 +11,19 @@ C:\Program Files\Unity\2020.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/UnrealToUnity
+D:/Archivos/Universidad/3V/IA/IAV-Proyecto-final/Cynthia IA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55378
-Successfully changed project path to: D:/UnrealToUnity
-D:/UnrealToUnity
+60230
+Successfully changed project path to: D:/Archivos/Universidad/3V/IA/IAV-Proyecto-final/Cynthia IA
+D:/Archivos/Universidad/3V/IA/IAV-Proyecto-final/Cynthia IA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnrealToUnity/Assets
+[Subsystems] Discovering subsystems at path D:/Archivos/Universidad/3V/IA/IAV-Proyecto-final/Cynthia IA/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,58 +35,1339 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002103 seconds.
+Registered in 0.002153 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.250 seconds
+- Completed reload, in  1.343 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000540 seconds.
+Registered in 0.000555 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.998 seconds
+- Completed reload, in  0.958 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1321 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 132.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1770.
+Total: 2.333000 ms (FindLiveObjects: 0.194800 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.001300 ms  DeleteObjects: 0.084100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prueba movimiento.unity
+  artifactKey: Guid(e87f605c2bcd01645a9c3ea4ab300114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prueba movimiento.unity using Guid(e87f605c2bcd01645a9c3ea4ab300114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75c65c85ad26e2c2e2622d79615e800') in 0.020249 seconds
+  Import took 0.022554 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1320 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.0 MB.
-System memory in use after: 132.1 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.062 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.4 MB.
+System memory in use after: 120.5 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1769.
-Total: 1.922600 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.607000 ms  DeleteObjects: 0.078000 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1773.
+Total: 3.667600 ms (FindLiveObjects: 0.505500 ms CreateObjectMapping: 0.084100 ms MarkObjects: 3.042600 ms  DeleteObjects: 0.033100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/SceneSettings.lighting
-  artifactKey: Guid(37efb61dd97fc0e4aa0e4cf0335c0294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SceneSettings.lighting using Guid(37efb61dd97fc0e4aa0e4cf0335c0294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '99670f8ae3e435aed9b54965b2553b57') in 0.050750 seconds
-  Import took 0.053306 seconds .
+  Time since last request: 832.673198 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e0e235c0f4af3754229b664788db90') in 0.010598 seconds
+  Import took 0.014792 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
+  Time since last request: 1.296600 seconds.
+  path: Assets/ModularFirstPersonController
+  artifactKey: Guid(3c279b1c9ec248742bf254139443e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController using Guid(3c279b1c9ec248742bf254139443e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e803252dbabe16e28643c39b389f0c7') in 0.008914 seconds
+  Import took 0.012816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.995884 seconds.
+  path: Assets/ModularFirstPersonController/How To Use.pdf
+  artifactKey: Guid(167a5ec0045348e4997182aa0e0fcea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/How To Use.pdf using Guid(167a5ec0045348e4997182aa0e0fcea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90ca70003298259058e4df082cbcb54') in 0.060015 seconds
+  Import took 0.062788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1511.558893 seconds.
+  path: Assets/ModularFirstPersonController/FirstPersonController
+  artifactKey: Guid(f37b4faf82d1edb47811f804ec33f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/FirstPersonController using Guid(f37b4faf82d1edb47811f804ec33f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588acd44360ef9903917ceef6ef0de62') in 0.012291 seconds
+  Import took 0.015793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.382912 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene
+  artifactKey: Guid(7d2c7648db4398a488c3e3a2d79fab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene using Guid(7d2c7648db4398a488c3e3a2d79fab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d20cbe7f5823e62d5ae7c8f69bb2d2') in 0.010263 seconds
+  Import took 0.013339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947710 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Demo.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Demo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dce4a370356588a9c29ad20576858c8') in 0.012441 seconds
+  Import took 0.015730 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.068 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.4 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1776.
+Total: 7.092400 ms (FindLiveObjects: 0.536600 ms CreateObjectMapping: 0.196000 ms MarkObjects: 6.322900 ms  DeleteObjects: 0.034800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.037294 seconds.
   path: Assets/Scene.unity
   artifactKey: Guid(d13b42ca539c7e540a1fd49f4c0e139d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene.unity using Guid(d13b42ca539c7e540a1fd49f4c0e139d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14a8494940c9de6ee6032b971678350') in 0.005752 seconds
-  Import took 0.008028 seconds .
+Start importing Assets/Scene.unity using Guid(d13b42ca539c7e540a1fd49f4c0e139d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a79cbcbe33ec8c3ab4e01d8f25c324') in 0.046548 seconds
+  Import took 0.049530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.078146 seconds.
+  path: Assets/Prueba movimiento.unity
+  artifactKey: Guid(e87f605c2bcd01645a9c3ea4ab300114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prueba movimiento.unity using Guid(e87f605c2bcd01645a9c3ea4ab300114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31be6d87a68d7ce413157c7070e61d2') in 0.008398 seconds
+  Import took 0.012434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.864732 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials
+  artifactKey: Guid(2807a3fa4a5ba6442a3fd6dc9d42c05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials using Guid(2807a3fa4a5ba6442a3fd6dc9d42c05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca6c256234b2456268b91e8ad65bc46') in 0.013481 seconds
+  Import took 0.016311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.887648 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources
+  artifactKey: Guid(8d1c710911d4cd54c940b4db8ea99a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources using Guid(8d1c710911d4cd54c940b4db8ea99a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f9016c540bb4e8538439f6ab6d816d') in 0.014266 seconds
+  Import took 0.017013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.393614 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/ProBuilder Data
+  artifactKey: Guid(75b6dac83d69dbd43b8515fcd889129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/ProBuilder Data using Guid(75b6dac83d69dbd43b8515fcd889129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cddf1e3132f7a4713d20cbb1adeec4') in 0.010198 seconds
+  Import took 0.012826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079028 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/ProBuilder Data/Prototype Materials.asset
+  artifactKey: Guid(bf95d34ab83b5ac40911f9e77a91a236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/ProBuilder Data/Prototype Materials.asset using Guid(bf95d34ab83b5ac40911f9e77a91a236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8087d1ad54f2079a0cea2a579688f7bf') in 0.021854 seconds
+  Import took 0.027808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.956475 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures
+  artifactKey: Guid(a1eecf8d7e6ca0e4cbf451a621a5a5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Textures using Guid(a1eecf8d7e6ca0e4cbf451a621a5a5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0191beacc037a26a14bd945649889ff9') in 0.007172 seconds
+  Import took 0.010260 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.4 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1779.
+Total: 2.600000 ms (FindLiveObjects: 0.405900 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.086500 ms  DeleteObjects: 0.017700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.4 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1782.
+Total: 2.083500 ms (FindLiveObjects: 0.190400 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.824600 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.5 MB.
+System memory in use after: 120.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1785.
+Total: 3.951000 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.051500 ms MarkObjects: 3.627400 ms  DeleteObjects: 0.042500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8724.348949 seconds.
+  path: Assets/Meshes/operating_lamp_B.obj
+  artifactKey: Guid(abc00000000011436700220884281626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/operating_lamp_B.obj using Guid(abc00000000011436700220884281626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aba2575a9b1b0e60f215f27b4f6a160') in 1.261253 seconds
+  Import took 1.360114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Meshes/wall_elevator.obj
+  artifactKey: Guid(abc00000000005437057006253906500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wall_elevator.obj using Guid(abc00000000005437057006253906500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840b6142f8e1632ef44a4be1c1c7b7b0') in 0.158778 seconds
+  Import took 0.167419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Meshes/pipe_Bt.obj
+  artifactKey: Guid(abc00000000001839300127124934828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/pipe_Bt.obj using Guid(abc00000000001839300127124934828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac16281426147f9172e0d5c05a75713') in 0.068723 seconds
+  Import took 0.074343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Meshes/showerc_urtain_B.obj
+  artifactKey: Guid(abc00000000005047119717693857203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/showerc_urtain_B.obj using Guid(abc00000000005047119717693857203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517105a1abce9891a2daf7a66f2c0328') in 0.119759 seconds
+  Import took 0.128443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Meshes/operating_lamp_A_R.obj
+  artifactKey: Guid(abc00000000011075848358726187854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/operating_lamp_A_R.obj using Guid(abc00000000011075848358726187854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2160d6e74482877c5d6b14d4df9f87e9') in 0.101826 seconds
+  Import took 0.114726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Meshes/ms_2ult.obj
+  artifactKey: Guid(abc00000000004360485726928358623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/ms_2ult.obj using Guid(abc00000000004360485726928358623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f514f67dfd532317e3a5720bae7237') in 0.102062 seconds
+  Import took 0.112010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Meshes/morgue_bed.obj
+  artifactKey: Guid(abc00000000007523223782524617456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/morgue_bed.obj using Guid(abc00000000007523223782524617456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fa94dcd424ad4685ef6c30419d80b5') in 0.074220 seconds
+  Import took 0.082404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Meshes/heater_B.obj
+  artifactKey: Guid(abc00000000002931193970527268429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/heater_B.obj using Guid(abc00000000002931193970527268429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b91e5e68ff5d49056aab0bae03d3478') in 0.064620 seconds
+  Import took 0.069604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Meshes/locker_A.obj
+  artifactKey: Guid(abc00000000016118059797683370573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/locker_A.obj using Guid(abc00000000016118059797683370573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b982482c50771da935405e02a31e09') in 0.076210 seconds
+  Import took 0.082126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Meshes/medicine_box_C.obj
+  artifactKey: Guid(abc00000000003956467072359714821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_box_C.obj using Guid(abc00000000003956467072359714821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b968247a6e510b583097fad0945af04e') in 0.062608 seconds
+  Import took 0.067638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Meshes/medicine_shelf.obj
+  artifactKey: Guid(abc00000000011984153143639553446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_shelf.obj using Guid(abc00000000011984153143639553446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbea9c8f0bb1ed919c906ea37270f76') in 0.040420 seconds
+  Import took 0.046455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Meshes/medicine_small_B.obj
+  artifactKey: Guid(abc00000000004195664248751560484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_small_B.obj using Guid(abc00000000004195664248751560484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eca13f5893d29d393a495446b330163') in 0.030940 seconds
+  Import took 0.035723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Meshes/medicine_small_D.obj
+  artifactKey: Guid(abc00000000004195662049728304062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_small_D.obj using Guid(abc00000000004195662049728304062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb5be55fea2eb52ee604d4039c87c47') in 0.040928 seconds
+  Import took 0.046561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Meshes/floorPlane_jamb.obj
+  artifactKey: Guid(abc00000000017011294878176909884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/floorPlane_jamb.obj using Guid(abc00000000017011294878176909884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4034aa12b304ac757b3b77742980ea4') in 0.069538 seconds
+  Import took 0.074097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Meshes/doors_B.obj
+  artifactKey: Guid(abc00000000013981861223282780659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/doors_B.obj using Guid(abc00000000013981861223282780659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbb651a26fe52d9da563225a5c23207') in 0.050384 seconds
+  Import took 0.053990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Meshes/elevator_switch.obj
+  artifactKey: Guid(abc00000000003110594514153633028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/elevator_switch.obj using Guid(abc00000000003110594514153633028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe30ba6f8f39b284a46bda9e4ada2d6') in 0.075372 seconds
+  Import took 0.081978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Meshes/medicine_box_F.obj
+  artifactKey: Guid(abc00000000003956461574801573766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_box_F.obj using Guid(abc00000000003956461574801573766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffc0d5dcec1bf40c28d91f51e6b419c') in 0.040129 seconds
+  Import took 0.047293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Meshes/pictureFrame_A.obj
+  artifactKey: Guid(abc00000000011495278145614477562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/pictureFrame_A.obj using Guid(abc00000000011495278145614477562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f644a7a1853cd38e2b070b63e50e319') in 0.103083 seconds
+  Import took 0.108958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Meshes/roundCeiling_cap.obj
+  artifactKey: Guid(abc00000000004544026752429582953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/roundCeiling_cap.obj using Guid(abc00000000004544026752429582953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7668da0d5b7aabd18017c202fb312af2') in 0.065292 seconds
+  Import took 0.072565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Meshes/decal_C.obj
+  artifactKey: Guid(abc00000000009898757626910080672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/decal_C.obj using Guid(abc00000000009898757626910080672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eeca71b57bb35a4a8d5028d99e6d914') in 0.064161 seconds
+  Import took 0.068849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Meshes/rubberFloorPlane_B.obj
+  artifactKey: Guid(abc00000000003333897901277351622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/rubberFloorPlane_B.obj using Guid(abc00000000003333897901277351622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c345ca8af8802667795cf7f276449f') in 0.074950 seconds
+  Import took 0.080441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Meshes/wall_morgue.obj
+  artifactKey: Guid(abc00000000010655751467104150127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wall_morgue.obj using Guid(abc00000000010655751467104150127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b725e4d49526cb844f6621b245adcf') in 0.149214 seconds
+  Import took 0.164563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Meshes/roundCeiling_cap_2s.obj
+  artifactKey: Guid(abc00000000006166174205003008761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/roundCeiling_cap_2s.obj using Guid(abc00000000006166174205003008761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5852444efc89311544fec5785ab952') in 0.039277 seconds
+  Import took 0.043338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Meshes/WallA_half.obj
+  artifactKey: Guid(abc00000000008976625845972471016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/WallA_half.obj using Guid(abc00000000008976625845972471016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59841ffe242d7e52f91f292037597a6b') in 0.102432 seconds
+  Import took 0.116230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Meshes/decal_H.obj
+  artifactKey: Guid(abc00000000009898769721537990993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/decal_H.obj using Guid(abc00000000009898769721537990993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6316b4e5bfcb8dafae20a666d9981c93') in 0.080589 seconds
+  Import took 0.086189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Meshes/medicine_tiny_C.obj
+  artifactKey: Guid(abc00000000005982083755728131978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_tiny_C.obj using Guid(abc00000000005982083755728131978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac3ab6c497ab722b20f79133227e460') in 0.038196 seconds
+  Import took 0.043517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Meshes/toilet_flushBox.obj
+  artifactKey: Guid(abc00000000011070057009878832810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/toilet_flushBox.obj using Guid(abc00000000011070057009878832810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494325d93a456dd7ddb144136243ed09') in 0.065357 seconds
+  Import took 0.071034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Meshes/sink_01.obj
+  artifactKey: Guid(abc00000000014523964665350357884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/sink_01.obj using Guid(abc00000000014523964665350357884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1786afde65034b2359c7b71c8a9b799a') in 0.071037 seconds
+  Import took 0.076807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Meshes/desk_door.obj
+  artifactKey: Guid(abc00000000014936480650262592361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/desk_door.obj using Guid(abc00000000014936480650262592361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7044b271dd7a1929d346fa51c9bd75cb') in 0.079780 seconds
+  Import took 0.085064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Meshes/pipe_Ct.obj
+  artifactKey: Guid(abc00000000001840432624101802933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/pipe_Ct.obj using Guid(abc00000000001840432624101802933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd716406e38138cd5b51b27f0f228f47a') in 0.052479 seconds
+  Import took 0.057804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Meshes/wallB_transition.obj
+  artifactKey: Guid(abc00000000004016790296411066757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wallB_transition.obj using Guid(abc00000000004016790296411066757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8af552eb785947c55924d0a9084ca30') in 0.082215 seconds
+  Import took 0.088280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Meshes/medicine_mid_C.obj
+  artifactKey: Guid(abc00000000006116821344371016550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_mid_C.obj using Guid(abc00000000006116821344371016550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573708a7ae00fd532cc23a53a21fd501') in 0.041810 seconds
+  Import took 0.046231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Meshes/wall_tiny_B.obj
+  artifactKey: Guid(abc00000000003082430505755468469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wall_tiny_B.obj using Guid(abc00000000003082430505755468469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee078dbc74302eee8562b5256ac8940') in 0.062467 seconds
+  Import took 0.069548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Meshes/roundCeiling_skylight.obj
+  artifactKey: Guid(abc00000000014601882614222887628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/roundCeiling_skylight.obj using Guid(abc00000000014601882614222887628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bd99007a3d7149732287ea9fe1426f') in 0.099292 seconds
+  Import took 0.108190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Meshes/liftShaft_A.obj
+  artifactKey: Guid(abc00000000006713979055629447572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/liftShaft_A.obj using Guid(abc00000000006713979055629447572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44968aa9a6d7de232a32d948d251ea14') in 0.062546 seconds
+  Import took 0.068222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Meshes/desk_At.obj
+  artifactKey: Guid(abc00000000011560892310349668552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/desk_At.obj using Guid(abc00000000011560892310349668552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cf439c65477f65da0fc786c5599b01') in 0.091124 seconds
+  Import took 0.099481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Meshes/doors_jamb_B.obj
+  artifactKey: Guid(abc00000000008258498101319459288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/doors_jamb_B.obj using Guid(abc00000000008258498101319459288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e9734bd32ad1a6d6f7125ab964bc8d') in 0.109409 seconds
+  Import took 0.116571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Meshes/wallA_half_window_A.obj
+  artifactKey: Guid(abc00000000016787767307564371573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wallA_half_window_A.obj using Guid(abc00000000016787767307564371573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90f9b20b7ffffda5f49779e367d25e0') in 0.113460 seconds
+  Import took 0.123489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Meshes/pipe_Dt.obj
+  artifactKey: Guid(abc00000000001845215499683574658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/pipe_Dt.obj using Guid(abc00000000001845215499683574658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929cbc7d5ca609d66c45fb93e6dee46a') in 0.063600 seconds
+  Import took 0.069545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Meshes/medicine_small_A.obj
+  artifactKey: Guid(abc00000000004195667547286445117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_small_A.obj using Guid(abc00000000004195667547286445117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5ad85882815824fc7db05dabdc7637') in 0.049006 seconds
+  Import took 0.053770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Meshes/toiletBoxWall.obj
+  artifactKey: Guid(abc00000000012182738527007069337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/toiletBoxWall.obj using Guid(abc00000000012182738527007069337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364a500559246cd21bb05819208e47e2') in 0.074966 seconds
+  Import took 0.082235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Meshes/decal_G.obj
+  artifactKey: Guid(abc00000000009898762024956593516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/decal_G.obj using Guid(abc00000000009898762024956593516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9d596372ee7688d12db1905fcb1a39') in 0.057393 seconds
+  Import took 0.062330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Meshes/decal_B.obj
+  artifactKey: Guid(abc00000000009898758726421708883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/decal_B.obj using Guid(abc00000000009898758726421708883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ab413c5c33b6896486d57c358890b1') in 0.058311 seconds
+  Import took 0.063248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Meshes/pictureFrame_B.obj
+  artifactKey: Guid(abc00000000011495277046102849351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/pictureFrame_B.obj using Guid(abc00000000011495277046102849351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e292b69ae2e681aa0087a0f8d779c7b') in 0.073365 seconds
+  Import took 0.079825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Meshes/cupboard_door.obj
+  artifactKey: Guid(abc00000000000779644568057064970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/cupboard_door.obj using Guid(abc00000000000779644568057064970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cb9d09982f00bb309b263464989895') in 0.093333 seconds
+  Import took 0.099649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Meshes/elevatorDoors_wing_B.obj
+  artifactKey: Guid(abc00000000008554192508391754419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/elevatorDoors_wing_B.obj using Guid(abc00000000008554192508391754419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f901ae830347e0ec2bc820bce9b6db55') in 0.076597 seconds
+  Import took 0.081460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Meshes/liftShaft_B.obj
+  artifactKey: Guid(abc00000000006713982354164332205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/liftShaft_B.obj using Guid(abc00000000006713982354164332205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801a75e5ad93a22c35547ead1e7f7255') in 0.061372 seconds
+  Import took 0.068261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Meshes/toilet_A.obj
+  artifactKey: Guid(abc00000000016561154717919341820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/toilet_A.obj using Guid(abc00000000016561154717919341820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9e41259e3981b134539515dfc36ef7') in 0.062326 seconds
+  Import took 0.068760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Meshes/wallA_window_B.obj
+  artifactKey: Guid(abc00000000018256449615093664960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wallA_window_B.obj using Guid(abc00000000018256449615093664960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f03c4ead52ddfdd3c5a5a0905a18be') in 0.079358 seconds
+  Import took 0.086141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Meshes/operating_bed_B.obj
+  artifactKey: Guid(abc00000000011430970100444845057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/operating_bed_B.obj using Guid(abc00000000011430970100444845057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4789beb186902a21e6403a4563173dd8') in 0.112727 seconds
+  Import took 0.122469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Meshes/glass_B.obj
+  artifactKey: Guid(abc00000000005165328394713764570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/glass_B.obj using Guid(abc00000000005165328394713764570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c448f4688ca3f0eeddaab7a0d93707') in 0.053584 seconds
+  Import took 0.059022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Meshes/bed_A_empty.obj
+  artifactKey: Guid(abc00000000008056211180036654286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/bed_A_empty.obj using Guid(abc00000000008056211180036654286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c004f57bcef585dfc942804fd3dca94') in 0.105313 seconds
+  Import took 0.114100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Meshes/wallA_transition.obj
+  artifactKey: Guid(abc00000000007470362438697169150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wallA_transition.obj using Guid(abc00000000007470362438697169150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115a1a9ab555dce0dfbbfbc13741575f') in 0.079425 seconds
+  Import took 0.090502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Meshes/elevatorDoors_wing_A.obj
+  artifactKey: Guid(abc00000000008554193607903382630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/elevatorDoors_wing_A.obj using Guid(abc00000000008554193607903382630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40a403e760fe35ed54d80ce4888877f') in 0.084311 seconds
+  Import took 0.091028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Meshes/bed_Blt.obj
+  artifactKey: Guid(abc00000000015286302884546254409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/bed_Blt.obj using Guid(abc00000000015286302884546254409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9781e608934d65cd975a44d0868cb7f2') in 0.099607 seconds
+  Import took 0.108390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Meshes/roundCeiling_cross.obj
+  artifactKey: Guid(abc00000000013427841181870190145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/roundCeiling_cross.obj using Guid(abc00000000013427841181870190145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e556e8d12246d49a5103d906e745b733') in 0.057737 seconds
+  Import took 0.065073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Meshes/morgue_doors.obj
+  artifactKey: Guid(abc00000000016967241725255283130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/morgue_doors.obj using Guid(abc00000000016967241725255283130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97faf8986a0d943ddf4eebb41d64fc7e') in 0.079335 seconds
+  Import took 0.088898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Meshes/WallBlt.obj
+  artifactKey: Guid(abc00000000004906466653395498237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/WallBlt.obj using Guid(abc00000000004906466653395498237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbfd68995a0b027afcd3cef7fff8d3b') in 0.086376 seconds
+  Import took 0.096548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Meshes/medicine_tiny_D.obj
+  artifactKey: Guid(abc00000000005982078258169990923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_tiny_D.obj using Guid(abc00000000005982078258169990923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7d42d3ba5b849963be315c3e15da0d') in 0.050360 seconds
+  Import took 0.055683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Meshes/medicine_mid_B.obj
+  artifactKey: Guid(abc00000000006116822443882644761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_mid_B.obj using Guid(abc00000000006116822443882644761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b389739086c51db5ec5fb624443823a') in 0.044088 seconds
+  Import took 0.049003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Meshes/medicine_tiny_E.obj
+  artifactKey: Guid(abc00000000005982077158658362712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_tiny_E.obj using Guid(abc00000000005982077158658362712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29536d73ea558e5120d3473f9cb0c6e') in 0.039732 seconds
+  Import took 0.044157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Meshes/pipe_At.obj
+  artifactKey: Guid(abc00000000001842134668101895111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/pipe_At.obj using Guid(abc00000000001842134668101895111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454aa715fb685e4c9d82d258714bd4d4') in 0.038220 seconds
+  Import took 0.044260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Meshes/operating_lamp_B_R.obj
+  artifactKey: Guid(abc00000000011786065800159516983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/operating_lamp_B_R.obj using Guid(abc00000000011786065800159516983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185850398d710458062dc9063c9e45d8') in 0.113747 seconds
+  Import took 0.123021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Meshes/locker_door_B_L.obj
+  artifactKey: Guid(abc00000000004269853565794946964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/locker_door_B_L.obj using Guid(abc00000000004269853565794946964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33d6d497ae908321d5e3e468c68b657') in 0.077511 seconds
+  Import took 0.084188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Meshes/doors_C_wing_L.obj
+  artifactKey: Guid(abc00000000014389969123791251473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/doors_C_wing_L.obj using Guid(abc00000000014389969123791251473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ecfcf27e5cc5d4efa2b5a849569d6c') in 0.076289 seconds
+  Import took 0.080952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Meshes/SM_Classic_Leather_Armchair.obj
+  artifactKey: Guid(abc00000000001956114609473202010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/SM_Classic_Leather_Armchair.obj using Guid(abc00000000001956114609473202010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e379a7ada17d212bcd6b95528415ba7c') in 0.336361 seconds
+  Import took 0.341010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Meshes/medicine_box_D.obj
+  artifactKey: Guid(abc00000000003956459375778317344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_box_D.obj using Guid(abc00000000003956459375778317344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d42f149e3916ff8ceccaf1c194ba31') in 0.032364 seconds
+  Import took 0.035725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Meshes/medicine_box_G.obj
+  artifactKey: Guid(abc00000000003956462674313201977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_box_G.obj using Guid(abc00000000003956462674313201977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a9d3111e4f966f8697ae122afb6f18') in 0.040725 seconds
+  Import took 0.044415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Meshes/benchlt.obj
+  artifactKey: Guid(abc00000000007353265322488857313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/benchlt.obj using Guid(abc00000000007353265322488857313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de77f8b1cc6dd6e8929e886e340daebb') in 0.065986 seconds
+  Import took 0.071776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Meshes/heater_elbow.obj
+  artifactKey: Guid(abc00000000014343761158090448760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/heater_elbow.obj using Guid(abc00000000014343761158090448760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd8cf2b5b8687f3539c091f1ea90657') in 0.054375 seconds
+  Import took 0.058590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Meshes/SM_Old_Chair.obj
+  artifactKey: Guid(abc00000000005385066160345670617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/SM_Old_Chair.obj using Guid(abc00000000005385066160345670617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f2c46fc2d062ae9a8568156646cdde') in 0.036504 seconds
+  Import took 0.041378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Meshes/SM_Table_Lamp.obj
+  artifactKey: Guid(abc00000000012307871976637045389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/SM_Table_Lamp.obj using Guid(abc00000000012307871976637045389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993ffc757d1822bb4f774159b4284f49') in 0.091991 seconds
+  Import took 0.101861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Meshes/morgue_bath.obj
+  artifactKey: Guid(abc00000000007707658038410537780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/morgue_bath.obj using Guid(abc00000000007707658038410537780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77414c82c1784e7f167e0f3088b4bf2f') in 0.096831 seconds
+  Import took 0.107089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Meshes/roundCeiling.obj
+  artifactKey: Guid(abc00000000017024694445349992510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/roundCeiling.obj using Guid(abc00000000017024694445349992510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd082c29a95654278d62a22b9961d5c71') in 0.049244 seconds
+  Import took 0.054537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Meshes/SM_Coffee_Table.obj
+  artifactKey: Guid(abc00000000017137405615135310689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/SM_Coffee_Table.obj using Guid(abc00000000017137405615135310689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b502cc57bb70f4a3a6a67e9bdf7f097') in 0.281884 seconds
+  Import took 0.287346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Meshes/locker_door_A_L.obj
+  artifactKey: Guid(abc00000000004796580108702242769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/locker_door_A_L.obj using Guid(abc00000000004796580108702242769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994313bba21a7a69e748aa0493361a6e') in 0.056721 seconds
+  Import took 0.061472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Meshes/medicine_small_C.obj
+  artifactKey: Guid(abc00000000004195665348263188695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_small_C.obj using Guid(abc00000000004195665348263188695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef32b6d45fb880e69f8b2dae5d4a379') in 0.031832 seconds
+  Import took 0.035954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Meshes/bed_Clt.obj
+  artifactKey: Guid(abc00000000014516703019108237542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/bed_Clt.obj using Guid(abc00000000014516703019108237542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95abef431cb3230fe63f868ab0cca660') in 0.106665 seconds
+  Import took 0.112253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Meshes/decal_D.obj
+  artifactKey: Guid(abc00000000009898765323491478149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/decal_D.obj using Guid(abc00000000009898765323491478149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975d25a230ef18719030177d0fa8a4e8') in 0.052872 seconds
+  Import took 0.059851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Meshes/desk_Ct.obj
+  artifactKey: Guid(abc00000000011562849441047505682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/desk_Ct.obj using Guid(abc00000000011562849441047505682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63f0337b73160345eeeaf8a23ddfa01') in 0.098034 seconds
+  Import took 0.104731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Meshes/doors_jamb_A.obj
+  artifactKey: Guid(abc00000000008258501399854343921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/doors_jamb_A.obj using Guid(abc00000000008258501399854343921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80286615ce2ecb6b4f4435aa0b2a4e59') in 0.101613 seconds
+  Import took 0.106847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Meshes/bed_Alt.obj
+  artifactKey: Guid(abc00000000013214804285832286872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/bed_Alt.obj using Guid(abc00000000013214804285832286872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd085a313449932af914e3fb27cf51f') in 0.087539 seconds
+  Import took 0.095758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Meshes/elevator_jamb.obj
+  artifactKey: Guid(abc00000000000016758235430233342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/elevator_jamb.obj using Guid(abc00000000000016758235430233342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3a3fc6633dc1c17a07b7f1defc632b') in 0.047357 seconds
+  Import took 0.053178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Meshes/medicine_big_C.obj
+  artifactKey: Guid(abc00000000003803209523382552034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_big_C.obj using Guid(abc00000000003803209523382552034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1858e38d0769b5713206f8d6a3514ad3') in 0.044007 seconds
+  Import took 0.048748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Meshes/operating_lamp_A.obj
+  artifactKey: Guid(abc00000000011436699121372653415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/operating_lamp_A.obj using Guid(abc00000000011436699121372653415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899cdc725e3069694a644586fbec533c') in 0.105750 seconds
+  Import took 0.114037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Meshes/locker_door_B_R.obj
+  artifactKey: Guid(abc00000000004269824978492613478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/locker_door_B_R.obj using Guid(abc00000000004269824978492613478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f16aa1c7444028b5f95a71e02a779f') in 0.064250 seconds
+  Import took 0.070048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Meshes/showert.obj
+  artifactKey: Guid(abc00000000004552339070486366029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/showert.obj using Guid(abc00000000004552339070486366029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a19c10ec8964fc87fdc488c47923a4') in 0.240861 seconds
+  Import took 0.252420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Meshes/medicine_small_E.obj
+  artifactKey: Guid(abc00000000004195663149239932273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_small_E.obj using Guid(abc00000000004195663149239932273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa6e031b90f95100c0956f0ee79db52') in 0.051056 seconds
+  Import took 0.057354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Meshes/toiletBox_door.obj
+  artifactKey: Guid(abc00000000007635591273649606934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/toiletBox_door.obj using Guid(abc00000000007635591273649606934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752b40d28fa2bf937d713701dacab169') in 0.081531 seconds
+  Import took 0.091191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Meshes/glass_E.obj
+  artifactKey: Guid(abc00000000005165322897155623515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/glass_E.obj using Guid(abc00000000005165322897155623515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1379c7d6de865a299300c7b36c41f42d') in 0.058779 seconds
+  Import took 0.062944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Meshes/stairsHall_01.obj
+  artifactKey: Guid(abc00000000013023998553943781110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/stairsHall_01.obj using Guid(abc00000000013023998553943781110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248ddd771bc72977532d7fd4558da2b6') in 0.159098 seconds
+  Import took 0.168613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Meshes/glass_F.obj
+  artifactKey: Guid(abc00000000005165323996667251726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/glass_F.obj using Guid(abc00000000005165323996667251726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8681619be9231367da7226219d9c0e') in 0.059338 seconds
+  Import took 0.063533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Meshes/morgue_sink_B.obj
+  artifactKey: Guid(abc00000000010661350192009532939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/morgue_sink_B.obj using Guid(abc00000000010661350192009532939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02071c9504d9207fe0e7f936601d778f') in 0.091828 seconds
+  Import took 0.100821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Meshes/SM_Classic_Leather_sofa_2.obj
+  artifactKey: Guid(abc00000000000785406779542367659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/SM_Classic_Leather_sofa_2.obj using Guid(abc00000000000785406779542367659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e68a8ec977240eaf1341b1e80568de') in 0.052854 seconds
+  Import took 0.057317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Meshes/operating_bed_A.obj
+  artifactKey: Guid(abc00000000011430966801909960424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/operating_bed_A.obj using Guid(abc00000000011430966801909960424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90680eeb1c52ab0e0655f38a2f6e15a') in 0.103758 seconds
+  Import took 0.117057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Meshes/glass_D.obj
+  artifactKey: Guid(abc00000000005165321797643995304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/glass_D.obj using Guid(abc00000000005165321797643995304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a2bfe893eaae2686cb3de182b679fa') in 0.046921 seconds
+  Import took 0.053277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Meshes/desk_Bt.obj
+  artifactKey: Guid(abc00000000011563973141931348099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/desk_Bt.obj using Guid(abc00000000011563973141931348099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3242d6a3e41c09daa1bd4d2e425c0300') in 0.081013 seconds
+  Import took 0.088064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Meshes/decal_E.obj
+  artifactKey: Guid(abc00000000009898764223979849938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/decal_E.obj using Guid(abc00000000009898764223979849938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb28b4d5341b1fca79dbce50eb923a7') in 0.044526 seconds
+  Import took 0.050932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Meshes/SM_Military_Bed.obj
+  artifactKey: Guid(abc00000000002899384799534983821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/SM_Military_Bed.obj using Guid(abc00000000002899384799534983821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce3ab0c045e57d2a80e7580d4c94d7f') in 1.060905 seconds
+  Import took 1.075318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Meshes/bed_C_empty.obj
+  artifactKey: Guid(abc00000000000390729259826862080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/bed_C_empty.obj using Guid(abc00000000000390729259826862080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e613cde97b3cf9a966f29a413625206c') in 0.061233 seconds
+  Import took 0.069447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Meshes/cupboard_B.obj
+  artifactKey: Guid(abc00000000008533684038455808572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/cupboard_B.obj using Guid(abc00000000008533684038455808572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566c5097b6e2bf71d0a1fd460ce36333') in 0.064562 seconds
+  Import took 0.072117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Meshes/rubberFloorPlane_A.obj
+  artifactKey: Guid(abc00000000003333896801765723411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/rubberFloorPlane_A.obj using Guid(abc00000000003333896801765723411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfa4713854bb5ad57f58ccca4e51b8d') in 0.067850 seconds
+  Import took 0.074557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/Meshes/medicine_box_H.obj
+  artifactKey: Guid(abc00000000003956472569917855876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_box_H.obj using Guid(abc00000000003956472569917855876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a314ed58020386b56f93f02283115df') in 0.035227 seconds
+  Import took 0.038951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Meshes/wallA_window_A.obj
+  artifactKey: Guid(abc00000000018256452913628549593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wallA_window_A.obj using Guid(abc00000000018256452913628549593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87978260302302a1484398cb969c0d99') in 0.079942 seconds
+  Import took 0.092012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Meshes/WallAlt.obj
+  artifactKey: Guid(abc00000000003080097575072962284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/WallAlt.obj using Guid(abc00000000003080097575072962284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277fa734db336f45584a6bc7d7c73adb') in 0.080921 seconds
+  Import took 0.090324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Meshes/doors_C_wing_R.obj
+  artifactKey: Guid(abc00000000014389980118907533583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/doors_C_wing_R.obj using Guid(abc00000000014389980118907533583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6155066bf39f54e8701707b80dfd5781') in 0.073518 seconds
+  Import took 0.078378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Meshes/elevator_A.obj
+  artifactKey: Guid(abc00000000009478545013114893691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/elevator_A.obj using Guid(abc00000000009478545013114893691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8c2fd0f6e12e45cc425c0d68898956') in 0.066960 seconds
+  Import took 0.073237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Meshes/medicine_tiny_B.obj
+  artifactKey: Guid(abc00000000005982084855239760189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_tiny_B.obj using Guid(abc00000000005982084855239760189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0aead5b8e08f8283dac48e8ee374a6') in 0.041060 seconds
+  Import took 0.046181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Meshes/chair_01.obj
+  artifactKey: Guid(abc00000000003380845190796277716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/chair_01.obj using Guid(abc00000000003380845190796277716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfd735aaa0cc1965f246813d4a98d2b') in 0.067060 seconds
+  Import took 0.072349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Meshes/heater_A.obj
+  artifactKey: Guid(abc00000000002931190671992383796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/heater_A.obj using Guid(abc00000000002931190671992383796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cbe9d7db5f640b4e0b42f4be2bbfac') in 0.042622 seconds
+  Import took 0.047381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Meshes/cupboard_drawer.obj
+  artifactKey: Guid(abc00000000015489218845491580407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/cupboard_drawer.obj using Guid(abc00000000015489218845491580407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd00e81dd8d73a14a6704cf60640829') in 0.067381 seconds
+  Import took 0.074682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Meshes/medicine_box_B.obj
+  artifactKey: Guid(abc00000000003956465972848086610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_box_B.obj using Guid(abc00000000003956465972848086610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd31398ca9c62f2e42490a8ba227eff') in 0.055565 seconds
+  Import took 0.061409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Meshes/wall_roundCorner.obj
+  artifactKey: Guid(abc00000000001007244693235224815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wall_roundCorner.obj using Guid(abc00000000001007244693235224815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe94fe702053663cf2c86be08a04b91') in 0.144549 seconds
+  Import took 0.156332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Meshes/medicine_big_A.obj
+  artifactKey: Guid(abc00000000003803207324359295612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_big_A.obj using Guid(abc00000000003803207324359295612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55acae43706f031e1cff924a60555957') in 0.048578 seconds
+  Import took 0.052999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001033 seconds.
+  path: Assets/Meshes/wallB_window_A.obj
+  artifactKey: Guid(abc00000000009774146365525992946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wallB_window_A.obj using Guid(abc00000000009774146365525992946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd4f55cd2b282c537aecef79a1f4fa4') in 0.099124 seconds
+  Import took 0.108067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Meshes/toilet_desk_B.obj
+  artifactKey: Guid(abc00000000002492599361643299637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/toilet_desk_B.obj using Guid(abc00000000002492599361643299637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51c76979b7e594de9ad3a08eda23fc3') in 0.088986 seconds
+  Import took 0.097297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Meshes/toilet_desk_A.obj
+  artifactKey: Guid(abc00000000002492596063108415004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/toilet_desk_A.obj using Guid(abc00000000002492596063108415004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244536ad34431758743c26b920d1f99f') in 0.085302 seconds
+  Import took 0.093413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Meshes/bed_B_empty.obj
+  artifactKey: Guid(abc00000000006256261356040249599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/bed_B_empty.obj using Guid(abc00000000006256261356040249599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b6189d8e7693ecb4cdd4c864a85267') in 0.096080 seconds
+  Import took 0.106561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Meshes/pillar_B.obj
+  artifactKey: Guid(abc00000000016689863724546289368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/pillar_B.obj using Guid(abc00000000016689863724546289368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c8c10a84e30df7b4da0ea1adec4f65') in 0.083220 seconds
+  Import took 0.090525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Meshes/medicine_mid_A.obj
+  artifactKey: Guid(abc00000000006116819145347760128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_mid_A.obj using Guid(abc00000000006116819145347760128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2215e489a7274d26c9a8056d04431512') in 0.033279 seconds
+  Import took 0.037138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Meshes/decal_A.obj
+  artifactKey: Guid(abc00000000009898759825933337094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/decal_A.obj using Guid(abc00000000009898759825933337094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b41fd71d6e329da8aca872ff9a3c0ce') in 0.054984 seconds
+  Import took 0.060221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Meshes/decal_F.obj
+  artifactKey: Guid(abc00000000009898763124468221727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/decal_F.obj using Guid(abc00000000009898763124468221727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fa2c79a4400afd7486589a029750c0') in 0.048020 seconds
+  Import took 0.052627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Meshes/medicine_big_B.obj
+  artifactKey: Guid(abc00000000003803210622894180245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_big_B.obj using Guid(abc00000000003803210622894180245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e573e09f6a78e5d3644151310030c770') in 0.039785 seconds
+  Import took 0.044027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Meshes/floorPlane_stair.obj
+  artifactKey: Guid(abc00000000013025332771389623643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/floorPlane_stair.obj using Guid(abc00000000013025332771389623643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d36b04846c571910fc87804b9b240fb') in 0.066801 seconds
+  Import took 0.071084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Meshes/pillar_A.obj
+  artifactKey: Guid(abc00000000016689867023081174001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/pillar_A.obj using Guid(abc00000000016689867023081174001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a8c9c844b616dc6281bc1083ad811c') in 0.080367 seconds
+  Import took 0.086657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Meshes/floorPlane.obj
+  artifactKey: Guid(abc00000000000620722722648950717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/floorPlane.obj using Guid(abc00000000000620722722648950717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94e3330f3076564d2b18b35be670078') in 0.076549 seconds
+  Import took 0.081172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Meshes/liftShaft_C.obj
+  artifactKey: Guid(abc00000000006713981254652703994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/liftShaft_C.obj using Guid(abc00000000006713981254652703994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25590b19dee10751900d86e36029528d') in 0.063037 seconds
+  Import took 0.068976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Meshes/locker_door_A_R.obj
+  artifactKey: Guid(abc00000000004796591103818524879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/locker_door_A_R.obj using Guid(abc00000000004796591103818524879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2fce761cccac5bf1c241e21a5faa59') in 0.070515 seconds
+  Import took 0.077742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Meshes/medicine_box_A.obj
+  artifactKey: Guid(abc00000000003956464873336458399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/medicine_box_A.obj using Guid(abc00000000003956464873336458399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57272cf98ab760be61f2dff09d7dbd8c') in 0.034437 seconds
+  Import took 0.040768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Meshes/doors_jamb_C.obj
+  artifactKey: Guid(abc00000000008258499200831087499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/doors_jamb_C.obj using Guid(abc00000000008258499200831087499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f2313c1e9d9f8b1e636d4d75e73944') in 0.082222 seconds
+  Import took 0.090574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.149380 seconds.
+  path: Assets/Prueba movimiento.unity
+  artifactKey: Guid(e87f605c2bcd01645a9c3ea4ab300114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prueba movimiento.unity using Guid(e87f605c2bcd01645a9c3ea4ab300114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5dfc3c2b74749031663a743f0bee8c') in 0.009668 seconds
+  Import took 0.013498 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000888 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.644 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1798.
+Total: 5.153200 ms (FindLiveObjects: 0.571700 ms CreateObjectMapping: 0.167200 ms MarkObjects: 4.168400 ms  DeleteObjects: 0.241200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
