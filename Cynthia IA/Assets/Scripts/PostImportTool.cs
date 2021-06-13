@@ -39,7 +39,7 @@ public class PostImportTool : AssetPostprocessor
 			}
 			catch( FormatException e )
 			{
-
+				Debug.LogError(e.Message);
 			}
 		}
 	}
@@ -77,9 +77,9 @@ public class PostImportTool : AssetPostprocessor
 						Floats.Add( Val );
 					}
 					catch(FormatException e )
-                    {
-
-                    }
+					{
+						Debug.LogError(e.Message);
+					}
 				}
 
 				if ( Floats.Count == 7 )
