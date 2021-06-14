@@ -2,7 +2,6 @@
 
 namespace BehaviorDesigner.Runtime.Tasks
 {
-    [TaskCategory("Tutorial")]
     [TaskIcon("Assets/Behavior Designer Tutorials/Tasks/Editor/{SkinColor}CanSeeObjectIcon.png")]
     public class CanSeeObject : Conditional
     {

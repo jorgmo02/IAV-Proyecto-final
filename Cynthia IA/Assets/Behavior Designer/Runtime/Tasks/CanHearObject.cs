@@ -2,14 +2,13 @@
 
 namespace BehaviorDesigner.Runtime.Tasks
 {
-    [TaskCategory("Tutorial")]
     [TaskIcon("Assets/Behavior Designer Tutorials/Tasks/Editor/{SkinColor}CanSeeObjectIcon.png")]
     public class CanHearObject : Conditional
     {
         [Tooltip("The object that we want to hear")]
         public SharedGameObject targetObject;
-        [Tooltip("The hear length")]
-        public SharedFloat hearThreshold = 20;
+        [Tooltip("The hear sensitivity. The lower, the more they hear")]
+        public SharedFloat hearSensitivity = 20;
         [Tooltip("The object that is within sight")]
         [HideInInspector] public SharedGameObject returnedObject;
 
@@ -19,7 +18,7 @@ namespace BehaviorDesigner.Runtime.Tasks
         /// <returns></returns>
         public override TaskStatus OnUpdate()
         {
-            returnedObject.Value = WithinHearRange(targetObject.Value, hearThreshold.Value);
+            returnedObject.Value = WithinHearRange(targetObject.Value, hearSensitivity.Value);
             if (returnedObject.Value != null)
             {
                 // Return success if an object was found

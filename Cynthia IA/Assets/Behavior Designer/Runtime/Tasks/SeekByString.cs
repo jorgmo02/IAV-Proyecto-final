@@ -3,7 +3,6 @@ using UnityEngine;
 
 namespace BehaviorDesigner.Runtime.Tasks
 {
-    [TaskCategory("Tutorial")]
     [TaskIcon("Assets/Behavior Designer Tutorials/Tasks/Editor/{SkinColor}SeekIcon.png")]
     public class SeekByString : Action
     {

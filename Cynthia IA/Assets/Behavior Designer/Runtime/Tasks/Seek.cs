@@ -2,18 +2,17 @@
 
 namespace BehaviorDesigner.Runtime.Tasks
 {
-    [TaskCategory("Tutorial")]
     [TaskIcon("Assets/Behavior Designer Tutorials/Tasks/Editor/{SkinColor}SeekIcon.png")]
     public class Seek : Action
     {
         [Tooltip("The speed of the agent")]
-        private SharedFloat speed = 4;
+        private SharedFloat speed = 3;
         [Tooltip("The angular speed of the agent")]
-        private SharedFloat angularSpeed = 150;
+        private SharedFloat angularSpeed = 300;
         [Tooltip("The acceleration of the agent")]
         private SharedFloat acceleration = 5;
         [Tooltip("The agent has arrived when the destination is less than the specified amount. This distance should be greater than or equal to the NavMeshAgent StoppingDistance.")]
-        private SharedFloat arriveDistance = 0.5f;
+        private SharedFloat arriveDistance = 1.5f;
         [Tooltip("The GameObject that the agent is seeking")]
         public SharedGameObject target;
         [Tooltip("If target is null then use the target position")]

@@ -9,16 +9,16 @@ using UnityEngine.Assertions;
 /// </summary>
 public abstract class HandleBaby : MonoBehaviour
 {
-    [SerializeField] private Baby baby = null;
+    [SerializeField] protected Baby baby = null;
     
     // Se asigna el valor del objeto padre en el inspector para que se pueda animar.
     [SerializeField] private Transform babyParentItem = null;
 
-    [SerializeField] private float pickDistance = 1.5f;
+    [SerializeField] protected float pickDistance = 1.5f;
 
     protected Ray pickRay;
 
-    [SerializeField] Picker picker;
+    [SerializeField] protected Picker picker;
 
     // Start is called before the first frame update
     void Start()
@@ -27,40 +27,46 @@ public abstract class HandleBaby : MonoBehaviour
         if (babyParentItem == null) babyParentItem = transform;
     }
 
+    public Picker GetPicker() { return picker; }
+
     public Baby GetBaby() { return baby; }
 
-    public void PickUnpick()
+    public GameObject PickUnpick()
     {
-        // Check if player picked some item already
+        // Check if player picked the baby already
         if (baby.currentPicker == picker)
         {
             baby.Unpick();
         }
-        else if (baby.currentPicker == Picker.None)
+        else
         {
             // If not picked already, try to pick item in front of the player
-            TryPick();
+            return TryPick();
         }
-        else Debug.Log("La otra persona tiene al bebé");
+
+        return null;
     }
 
     public abstract void SetRaycast();
 
-    public void TryPick()
+    public GameObject TryPick()
     {
         // set direction of picking
         // Create ray (abstract, implementation depends on who picks)
         SetRaycast();
         RaycastHit hit;
+
         // Shot ray to find object to pick
         if (Physics.Raycast(pickRay, out hit, pickDistance))
         {
             Debug.Log("JAJA COGISTE");
+
             // Check if object is the baby
             GameObject gO = hit.transform.gameObject;
-            var pickable = gO.GetComponent<Baby>();
+            var babyComponent = gO.GetComponent<Baby>();
+
             // If object is the baby
-            if (pickable)
+            if (baby.currentPicker == Picker.None && babyComponent)
             {
                 // Pick it
                 baby.Pick(babyParentItem, picker);
@@ -70,7 +76,10 @@ public abstract class HandleBaby : MonoBehaviour
                 Debug.Log("UPS PERO NO ERA EL BEBE");
                 Debug.Log(gO.name);
             }
+            return gO;
         }
         else Debug.Log("No se pudo coger al bebé");
+
+        return null;
     }
 }
