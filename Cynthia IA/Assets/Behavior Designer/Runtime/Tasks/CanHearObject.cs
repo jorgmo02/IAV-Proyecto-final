@@ -38,11 +38,11 @@ namespace BehaviorDesigner.Runtime.Tasks
                 return null;
             }
 
-            var ass = targetObject.GetComponent<AudioSource>();
-            if (!ass.isPlaying) return null;
+            var aSource = targetObject.GetComponent<AudioSource>();
+            if (!aSource.isPlaying) return null;
 
             float distance = (targetObject.transform.position - transform.position).magnitude;
-            float dB = ass.volume * 100 / distance;
+            float dB = aSource.volume * 100 / distance;
 
             if (dB >= hearThreshold)
             {

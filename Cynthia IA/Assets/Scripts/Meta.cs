@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class Meta : MonoBehaviour
 {
-    [SerializeField] GameObject player;
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject == player)
-            SceneManager.LoadScene("End");
+        SceneManager.LoadScene("End");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
