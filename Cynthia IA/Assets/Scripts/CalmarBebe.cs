@@ -21,7 +21,7 @@ class CalmarBebe : MonoBehaviour
             Debug.Log("Input calmar");
             if (baby.currentPicker == Picker.Player)
             {
-                if (babyAudioSource.volume >= 0)
+                if (babyAudioSource.volume >= 0.0f)
                     babyAudioSource.volume -= ratioCalmar * Time.deltaTime;
                 else baby.Calmar();
 
