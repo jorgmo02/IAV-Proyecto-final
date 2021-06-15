@@ -2,7 +2,7 @@
 
 namespace BehaviorDesigner.Runtime.Tasks
 {
-    public class CheckHasBaby : Action
+    public class CheckHasBaby : Conditional
     {
         [SerializeField] Baby baby;
         [SerializeField] HandleBaby handler;

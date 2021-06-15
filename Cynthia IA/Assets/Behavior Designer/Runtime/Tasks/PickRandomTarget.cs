@@ -18,10 +18,5 @@ namespace BehaviorDesigner.Runtime.Tasks
             Debug.Log(salas[a].name);
             var.Value = salas[a].gameObject;
         }
-
-        public override void OnLateUpdate()
-        {
-            Debug.Log("JOPE");
-        }
     }
 }

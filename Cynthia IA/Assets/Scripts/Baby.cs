@@ -41,7 +41,7 @@ public class Baby : MonoBehaviour
     void Cry()
     {
         audioSource.volume = initialVolume;
-        audioSource.Play();
+        if(!audioSource.isPlaying) audioSource.Play();
         isCalmado = false;
     }
 
@@ -85,5 +85,10 @@ public class Baby : MonoBehaviour
     public void OnTriggerStay(Collider other)
     {
         isInsideCuna = other.GetComponent<ElementoCalmador>() != null;
+    }
+    public void OnTriggerExit(Collider other)
+    {
+        if (other.GetComponent<ElementoCalmador>() != null)
+            isInsideCuna = false;
     }
 }

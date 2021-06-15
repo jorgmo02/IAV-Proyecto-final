@@ -6,7 +6,7 @@ namespace BehaviorDesigner.Runtime.Tasks
     public class PickRandomCuna : Action
     {
         [SerializeField] SharedGameObject parentCuna;
-        [SerializeField] SharedVariable outVar;
+        [SerializeField] SharedGameObject target;
 
         public override void OnStart()
         {
@@ -14,19 +14,14 @@ namespace BehaviorDesigner.Runtime.Tasks
         }
         void PickNewRandom()
         {
-            List<Transform> salas = new List<Transform>();
-            foreach(GameObject child in parentCuna.Value.transform)
+            List<Transform> cunas = new List<Transform>();
+            foreach(Transform child in parentCuna.Value.transform)
             {
-                salas.Add(child.transform);
+                cunas.Add(transform);
             }
-            int a = Random.Range(0, salas.Count);
-            Debug.Log(salas[a].name);
-            outVar.SetValue(salas[a].GetChild(0).gameObject);
-        }
-
-        public override void OnLateUpdate()
-        {
-            Debug.Log("JOPE");
+            int a = Random.Range(0, cunas.Count);
+            Debug.Log(cunas[a].name);
+            target.Value = cunas[a].GetChild(0).gameObject;
         }
     }
 }

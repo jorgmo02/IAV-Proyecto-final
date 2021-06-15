@@ -20,6 +20,8 @@ public abstract class HandleBaby : MonoBehaviour
 
     [SerializeField] protected Picker picker;
 
+    [SerializeField] bool autoPick = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +53,13 @@ public abstract class HandleBaby : MonoBehaviour
 
     public GameObject TryPick()
     {
+        if(autoPick)
+            if (baby.currentPicker == Picker.None) {
+                // Pick it
+                baby.Pick(babyParentItem, picker);
+                return baby.gameObject;
+            }
+
         // set direction of picking
         // Create ray (abstract, implementation depends on who picks)
         SetRaycast();
@@ -59,8 +68,6 @@ public abstract class HandleBaby : MonoBehaviour
         // Shot ray to find object to pick
         if (Physics.Raycast(pickRay, out hit, pickDistance))
         {
-            Debug.Log("JAJA COGISTE");
-
             // Check if object is the baby
             GameObject gO = hit.transform.gameObject;
             var babyComponent = gO.GetComponent<Baby>();
@@ -71,14 +78,8 @@ public abstract class HandleBaby : MonoBehaviour
                 // Pick it
                 baby.Pick(babyParentItem, picker);
             }
-            else
-            {
-                Debug.Log("UPS PERO NO ERA EL BEBE");
-                Debug.Log(gO.name);
-            }
             return gO;
         }
-        else Debug.Log("No se pudo coger al bebé");
 
         return null;
     }

@@ -14,6 +14,10 @@ namespace BehaviorDesigner.Runtime.Tasks.Unity.UnityTransform
         public SharedVector3 worldPosition;
         [Tooltip("Vector specifying the upward direction")]
         public Vector3 worldUp;
+        [Tooltip("Constraints")]
+        public SharedBool constraintX = false, constraintY = false, constraintZ = false;
+
+        private Vector3 rotations;
 
         private Transform targetTransform;
         private GameObject prevGameObject;
@@ -25,6 +29,11 @@ namespace BehaviorDesigner.Runtime.Tasks.Unity.UnityTransform
                 targetTransform = currentGameObject.GetComponent<Transform>();
                 prevGameObject = currentGameObject;
             }
+            rotations = new Vector3(
+                (constraintX.Value) ? 0 : 1,
+                (constraintY.Value) ? 0 : 1,
+                (constraintZ.Value) ? 0 : 1
+            );
         }
 
         public override TaskStatus OnUpdate()
@@ -34,11 +43,17 @@ namespace BehaviorDesigner.Runtime.Tasks.Unity.UnityTransform
                 return TaskStatus.Failure;
             }
 
+            Vector3 euler = targetTransform.rotation.eulerAngles;
+
             if (targetLookAt.Value != null) {
                 targetTransform.LookAt(targetLookAt.Value.transform);
             } else {
                 targetTransform.LookAt(worldPosition.Value, worldUp);
             }
+            Vector3 rotated = targetTransform.rotation.eulerAngles;
+            rotated.Scale(rotations);
+
+            targetTransform.rotation = Quaternion.Euler(rotated);
 
             return TaskStatus.Success;
         }

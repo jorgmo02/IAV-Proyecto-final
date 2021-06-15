@@ -18,6 +18,9 @@ public class FirstPersonController : MonoBehaviour
     public float crouchVolume = 0.025f;
     public float walkVolume = 0.05f;
     public float runVolume = 0.1f;
+    public float crouchPitch = 0.6f;
+    public float walkPitch = 1.0f;
+    public float runPitch = 2.0f;
     AudioSource audioSource;
 
     #region Camera Movement Variables
@@ -382,6 +385,7 @@ public class FirstPersonController : MonoBehaviour
             {
                 isWalking = true;
                 audioSource.volume = walkVolume;
+                audioSource.pitch = walkPitch;
             }
             else
             {
@@ -407,6 +411,7 @@ public class FirstPersonController : MonoBehaviour
                 {
                     isSprinting = true;
                     audioSource.volume = runVolume;
+                    audioSource.pitch = runPitch;
 
                     if (isCrouched)
                     {
@@ -501,6 +506,7 @@ public class FirstPersonController : MonoBehaviour
 
             isCrouched = true;
             audioSource.volume = crouchVolume;
+            audioSource.pitch = crouchPitch;
         }
     }
 
