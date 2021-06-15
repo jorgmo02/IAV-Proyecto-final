@@ -9,6 +9,20 @@ Cynthia IA/[Bb]uild/
 Cynthia IA/[Bb]uilds/
 Cynthia IA/[Ll]ogs/
 Cynthia IA/[Mm]emoryCaptures/
+/Cynthia IA/[Ll]ibrary/
+/Cynthia IA/[Tt]emp/
+/Cynthia IA/[Oo]bj/
+/Cynthia IA/[Bb]uild/
+/Cynthia IA/[Bb]uilds/
+/Cynthia IA/[Ll]ogs/
+/Cynthia IA/[Mm]emoryCaptures/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -57,4 +71,3 @@ Cynthia IA/sysinfo.txt
 
 # Crashlytics generated file
 Cynthia IA/crashlytics-build.properties
-Cynthia IA/Logs/ApiUpdaterCheck.txt
