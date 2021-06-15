@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -3743460597097761178}
   - component: {fileID: 5785913247657185389}
   - component: {fileID: 143138997909978521}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: StaticMeshComponent0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -2,7 +2,8 @@
 {
 	Properties
 	{
-		_MainTex("MainTex (RGB)", 2D) = "white" {}				Material_Texture2D_0( "Tex0", 2D ) = "white" {}
+		_MainTex("MainTex (RGB)", 2D) = "white" {}		
+		Material_Texture2D_0( "Tex0", 2D ) = "white" {}
 		Material_Texture2D_1( "Tex1", 2D ) = "white" {}
 
 
@@ -127,12 +128,14 @@
 
 		#include "UnrealCommon.cginc"
 
-		MaterialStruct Material;void InitializeExpressions()
+		MaterialStruct Material;
+void InitializeExpressions()
 {
 	Material.VectorExpressions[0] = float4(0.000000,0.000000,0.000000,0.000000);//
 	Material.VectorExpressions[1] = float4(0.000000,0.000000,0.000000,0.000000);//
 	Material.ScalarExpressions[0] = float4(0.000000,0.000000,0.000000,0.000000);
-}void CalcPixelMaterialInputs(in out FMaterialPixelParameters Parameters, in out FPixelMaterialInputs PixelMaterialInputs)
+}
+void CalcPixelMaterialInputs(in out FMaterialPixelParameters Parameters, in out FPixelMaterialInputs PixelMaterialInputs)
 {
 	// Initial calculations (required for Normal)
 

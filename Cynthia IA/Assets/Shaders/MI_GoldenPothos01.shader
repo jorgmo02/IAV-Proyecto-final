@@ -2,7 +2,8 @@
 {
 	Properties
 	{
-		_MainTex("MainTex (RGB)", 2D) = "white" {}				Material_Texture2D_0( "Tex0", 2D ) = "white" {}
+		_MainTex("MainTex (RGB)", 2D) = "white" {}		
+		Material_Texture2D_0( "Tex0", 2D ) = "white" {}
 		Material_Texture2D_1( "Tex1", 2D ) = "white" {}
 		Material_Texture2D_2( "Tex2", 2D ) = "white" {}
 		Material_Texture2D_3( "Tex3", 2D ) = "white" {}
@@ -133,7 +134,8 @@
 
 		#include "UnrealCommon.cginc"
 
-		MaterialStruct Material;void InitializeExpressions()
+		MaterialStruct Material;
+void InitializeExpressions()
 {
 	Material.VectorExpressions[0] = float4(0.000000,0.000000,0.000000,0.000000);//
 	Material.VectorExpressions[1] = float4(1.000000,1.000000,1.000000,1.000000);//
@@ -148,7 +150,8 @@
 	Material.ScalarExpressions[0] = float4(1.000000,0.000000,1.500000,1.500000);
 	Material.ScalarExpressions[1] = float4(0.800000,0.800000,0.000000,0.800000);
 	Material.ScalarExpressions[2] = float4(0.000000,0.000000,0.000000,0.000000);
-}void CalcPixelMaterialInputs(in out FMaterialPixelParameters Parameters, in out FPixelMaterialInputs PixelMaterialInputs)
+}
+void CalcPixelMaterialInputs(in out FMaterialPixelParameters Parameters, in out FPixelMaterialInputs PixelMaterialInputs)
 {
 	// Initial calculations (required for Normal)
 	MaterialFloat4 Local0 = UnpackNormalMap(Texture2DSampleBias(Material_Texture2D_0, Material_Texture2D_0Sampler,Parameters.TexCoords[0].xy,View.MaterialTextureMipBias));

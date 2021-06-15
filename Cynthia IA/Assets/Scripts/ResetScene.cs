@@ -8,9 +8,10 @@ public class ResetScene : MonoBehaviour
 {
     private void Start()
     {
-        Debug.Log("AAAAAAAAAAAAAAAstart");
+        Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 1;
     }
+
     public void LoadScene(string name)
     {
         SceneManager.LoadScene(name);

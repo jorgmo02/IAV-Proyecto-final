@@ -15,6 +15,11 @@ public class FirstPersonController : MonoBehaviour
 {
     private Rigidbody rb;
 
+    public float crouchVolume = 0.025f;
+    public float walkVolume = 0.05f;
+    public float runVolume = 0.1f;
+    AudioSource audioSource;
+
     #region Camera Movement Variables
 
     public Camera playerCamera;
@@ -131,6 +136,7 @@ public class FirstPersonController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
 
         crosshairObject = GetComponentInChildren<Image>();
 
@@ -375,10 +381,12 @@ public class FirstPersonController : MonoBehaviour
             if (targetVelocity.x != 0 || targetVelocity.z != 0 && isGrounded)
             {
                 isWalking = true;
+                audioSource.volume = walkVolume;
             }
             else
             {
                 isWalking = false;
+                audioSource.volume = 0;
             }
 
             // All movement calculations shile sprint is active
@@ -398,6 +406,7 @@ public class FirstPersonController : MonoBehaviour
                 if (velocityChange.x != 0 || velocityChange.z != 0)
                 {
                     isSprinting = true;
+                    audioSource.volume = runVolume;
 
                     if (isCrouched)
                     {
@@ -491,6 +500,7 @@ public class FirstPersonController : MonoBehaviour
             walkSpeed *= speedReduction;
 
             isCrouched = true;
+            audioSource.volume = crouchVolume;
         }
     }
 
