@@ -9,13 +9,13 @@ Cynthia IA/[Bb]uild/
 Cynthia IA/[Bb]uilds/
 Cynthia IA/[Ll]ogs/
 Cynthia IA/[Mm]emoryCaptures/
-/Cynthia IA/[Ll]ibrary/
-/Cynthia IA/[Tt]emp/
-/Cynthia IA/[Oo]bj/
-/Cynthia IA/[Bb]uild/
-/Cynthia IA/[Bb]uilds/
-/Cynthia IA/[Ll]ogs/
-/Cynthia IA/[Mm]emoryCaptures/
+#/Cynthia IA/[Ll]ibrary/
+#/Cynthia IA/[Tt]emp/
+#/Cynthia IA/[Oo]bj/
+#/Cynthia IA/[Bb]uild/
+#/Cynthia IA/[Bb]uilds/
+#/Cynthia IA/[Ll]ogs/
+#/Cynthia IA/[Mm]emoryCaptures/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -26,6 +26,7 @@ Cynthia IA/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+!/[Ll]ibrary/**/*.asset
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # Cynthia IA/[Aa]ssets/AssetStoreTools*
