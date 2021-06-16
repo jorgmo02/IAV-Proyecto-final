@@ -178,24 +178,13 @@ Por otro lado, la inteligencia del bebé es bastante más sencilla y está imple
 # __Pruebas realizadas__
 <br>
 
-## Escucha
-<br>
+[__Escucha__](https://github.com/jorgmo02/IAV-Proyecto-final/tree/main/Videos/escucha.mp4)
 
-[<video src=./Videos/escucha.mp4 width = 900 >](https://github.com/jorgmo02/IAV-Proyecto-final/tree/main/Videos/escucha.mp4)
+[__Dejar al bebé en la cuna__](https://github.com/jorgmo02/IAV-Proyecto-final/tree/main/Videos/cunaMasCercana1.mp4)
 
-## Dejar al bebé en la cuna
-<br>
+[__Dejar al bebé en la cuna (cambio)__](https://github.com/jorgmo02/IAV-Proyecto-final/tree/main/Videos/cunaMasCercana2.mp4)
 
-[<video src=./Videos/cunaMasCercana1.mp4 width = 900 >](https://github.com/jorgmo02/IAV-Proyecto-final/tree/main/Videos/cunaMasCercana1.mp4)
-
-[<video src=./Videos/cunaMasCercana2.mp4 width = 900 >](https://github.com/jorgmo02/IAV-Proyecto-final/tree/main/Videos/cunaMasCercana2.mp4)
-
-
-
-##  Reaccionar al llanto y priorizar al bebé
-<br>
-
-[<video src=./Videos/atraerConBebe.mp4 width = 900 >](https://github.com/jorgmo02/IAV-Proyecto-final/tree/main/Videos/atraerConBebe.mp4)
+[__Reaccionar al llanto y priorizar al bebé__](https://github.com/jorgmo02/IAV-Proyecto-final/tree/main/Videos/atraerConBebe.mp4)
 
 
 ---
