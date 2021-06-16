@@ -27,7 +27,7 @@ public class Baby : MonoBehaviour
     private float initialVolume = 1.0f;
 
     bool isInsideCuna = false;
-    bool isCalmado = true;
+    [SerializeField] bool isCalmado = true;
 
     private void Start()
     {
@@ -36,6 +36,7 @@ public class Baby : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         Assert.IsNotNull(audioSource, "No le has puesto sonido al bebé");
         initialVolume = audioSource.volume;
+        if (!isCalmado) Cry();
     }
 
     void Cry()
@@ -75,16 +76,22 @@ public class Baby : MonoBehaviour
             if (isInsideCuna) StopCry();
             else Cry();
         }
+        else Cry();
     }
 
     public void Calmar()
     {
         StopCry();
+        isCalmado = true;
     }
 
     public void OnTriggerStay(Collider other)
     {
         isInsideCuna = other.GetComponent<ElementoCalmador>() != null;
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (!isInsideCuna || !isCalmado) Cry();
     }
     public void OnTriggerExit(Collider other)
     {
