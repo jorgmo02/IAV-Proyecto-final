@@ -1,18 +1,28 @@
-# IA para el videojuego Cynthia
-## Proyecto final de la asignatura Inteligencia Artificial para Videojuegos
+# __IA para el videojuego Cynthia__
+## *Proyecto final de la asignatura Inteligencia Artificial para Videojuegos*
 
-### Desarrollado por Jorge Moreno Martíenz
+### Desarrollado por __Jorge Moreno Martínez__
 
 <br>
+<br>
+
+
 
 # __Índice__
 - [Introducción](#Introducción)
 - [Motivación del proyecto](#Motivación-del-proyecto)
 - [Mecánicas de la demo](#Mecánicas-de-la-demo)
+- [Diseño de la IA](#Diseño-de-la-IA)
+    - [Cynthia](#Cynthia)
+        - [Alternativas exploradas](#Alternativas-analizadas-del-comportamiento-de-Cynthia)
+
 
 ---
 
 <br>
+<br>
+
+
 
 # __Introducción__
 
@@ -35,6 +45,8 @@ Cynthia irá merodeando por el mapa del hospital, buscándote continuamente. No 
 ---
 
 <br>
+<br>
+
 
 
 # __Motivación del proyecto__
@@ -48,6 +60,8 @@ Así pues, dado que durante todo el cuatrimestre hemos estado trabajando con Uni
 ---
 
 <br>
+<br>
+
 
 
 # __Mecánicas de la demo__
@@ -75,4 +89,30 @@ Y por último, el bebé puede:
 (Como aclaración, esto es lo único que hacen los bebés humanos en general, por lo que se podría decir que el comportamiento del bebé es muy realista y podría merecer una matrícula de honor).
 
 ---
+
+<br>
+<br>
+
+
+# __Diseño de la IA__
+<br>
+
+## __Cynthia__
+<br>
+
+Cynthia se dedica a priorizar al bebé antes que a ninguna otra cosa que haya en el mapa.
+
+Si el bebé llora, irá a protegerlo: se desplazará hasta la posición en la que lo oiga y lo cogerá. A continuación, lo calmará y lo dejará en la __cuna más próxima__: para ello he investigado en profundidad acerca de la clase NavMesh y he llegado a un __algoritmo que encuentra la posición más cercana a un elemento que puede estar fuera de la NavMesh__ (porque Cynthia no puede recorrrer las cunas pero debería dejar al bebé en una para que este deje de llorar). 
+
+Si el bebé no está llorando, su objetivo es encontrar al jugador: para ello, va recorriendo el mapa de manera aleatoria. En el momento en el que detecta al jugador (ya sea por el sonido que producen sus pasos o porque le ve directamente), le persigue (y chilla si lo ve, dado el odio visceral que siente hacia él).
+
+<br>
+
+### __Alternativas analizadas del comportamiento de Cynthia__
+
+<br>
+
+- __Prioridades__
+
+    Inicialmente, Cynthia no priorizaba al bebé sobre el jugador, sino que se dedicaba a perseguir al jugador siempre que lo veía, incluso si su bebé estaba llorando. Esto fue descartado porque __podría provocar que el jugador se quedara estancado__, sin poder desviar la atención de Cynthia de ninguna manera (lo mismo ocurre con la situación en la que Cynthia se queda patruyando en la zona en la que está el bebé durmiendo).
 
