@@ -178,6 +178,24 @@ Por otro lado, la inteligencia del bebé es bastante más sencilla y está imple
 # __Pruebas realizadas__
 <br>
 
+## Escucha
+<br>
+
+<video src=./Videos/escucha.mp4 width = 900 >
+
+## Dejar al bebé en la cuna
+<br>
+
+<video src=./Videos/cunaMasCercana1.mp4 width = 900 >
+
+<video src=./Videos/cunaMasCercana2.mp4 width = 900 >
+
+
+
+##  Reaccionar al llanto y priorizar al bebé
+<br>
+
+
 
 ---
 

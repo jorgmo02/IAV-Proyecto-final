@@ -15,9 +15,9 @@ public class FirstPersonController : MonoBehaviour
 {
     private Rigidbody rb;
 
-    public float crouchVolume = 0.025f;
-    public float walkVolume = 0.05f;
-    public float runVolume = 0.1f;
+    public float crouchVolume = 0.25f;
+    public float walkVolume = 0.4f;
+    public float runVolume = 0.6f;
     public float crouchPitch = 0.6f;
     public float walkPitch = 1.0f;
     public float runPitch = 2.0f;
