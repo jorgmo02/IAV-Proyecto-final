@@ -4,6 +4,9 @@
 ### Desarrollado por __Jorge Moreno Martínez__
 
 <br>
+
+[Enlace a GitHub](https://github.com/jorgmo02/IAV-Proyecto-final/)
+
 <br>
 
 
@@ -15,6 +18,7 @@
 - [Diseño de la IA](#Diseño-de-la-IA)
     - [Cynthia](#Cynthia)
     - [Bebé](#Bebé)
+- [Técnicas utilizadas](#Técnicas-utilizadas)
 
 
 ---
@@ -148,3 +152,25 @@ Adicionalmente, el bebé se puede quedar llorando en una cuna, si el jugador no 
 - __Capacidad del jugador para calmar al bebé__
 
     Valoré varias veces si eliminar esta función del juego, ya que da bastante más "poder" al jugador, pero en realidad enriquece muchísimo la jugabilidad al provocar que puedas llamar la atención de Cynthia para después volver a un estado de relativa seguridad y controlar por qué zonas se moverá la madre.
+
+<br>
+
+---
+
+<br>
+<br>
+
+
+# __Técnicas utilizadas__
+<br>
+
+Para la implementación de la inteligencia artificial de Cynthia, he utilizado tanto navegación como toma de decisiones; lo primero, utilizando la herramienta NavMesh de Unity, y lo segundo, utilizando la herramienta externa *Behaviour Designer* para hacer árboles de comportamiento.
+
+Por otro lado, la inteligencia del bebé es bastante más sencilla y está implementada mediante componentes sencillos.
+
+---
+
+<br>
+<br>
+
+
