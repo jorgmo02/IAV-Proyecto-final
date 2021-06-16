@@ -1,0 +1,13 @@
+
+	https://github.com/jorgmo02/IAV-Proyecto-final/
+	
+	Integrante:
+	-Jorge Moreno Martínez
+	
+	EXPLICACIÓN DE LA PRÁCTICA:
+	
+	Este proyecto es una demo técnica desarrollada en Unity con el objetivo de servir como campo de pruebas para tener una Inteligencia Artificial
+	funcional y divertida en otro proyecto: la segunda parte del videojuego Cynthia.
+
+	La demo consta de un nivel concreto del juego, un hospital, en donde el jugador es víctima de una persecución a manos del enemigo principal
+	del juego. Este enemigo es una mujer, de nombre Cynthia, la madre de un bebé que también está en el hospital.

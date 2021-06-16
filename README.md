@@ -174,3 +174,9 @@ Por otro lado, la inteligencia del bebé es bastante más sencilla y está imple
 <br>
 
 
+# __Referencias__
+
+- *Modular First Person Controller* de Jess Case
+- *Unreal to Unity plugin* de Ciprian Stanciu
+- *Cineware by Maxon* de Maxon Computer GmbH
+- [Mixamo](https://www.mixamo.com)
