@@ -49,29 +49,6 @@ namespace BehaviorDesigner.Runtime.Tasks
             else Debug.LogError("Target was null");
         }
 
-        public bool GetPath(NavMeshPath path, Vector3 toPos)
-        {
-            path.ClearCorners();
-            agent.CalculatePath(toPos, path);
-            if (path.status != NavMeshPathStatus.PathPartial) Debug.Log("Partial");
-            return true;
-        }
-
-        public static float GetPathLength(NavMeshPath path)
-        {
-            float lng = 0.0f;
-
-            if ((path.status != NavMeshPathStatus.PathInvalid) && (path.corners.Length > 1))
-            {
-                for (int i = 1; i < path.corners.Length; ++i)
-                {
-                    lng += Vector3.Distance(path.corners[i - 1], path.corners[i]);
-                }
-            }
-
-            return lng;
-        }
-
         private float FromAToB(Transform PointA, Transform PointB)
         {
             if (PointA == null || PointB == null)
