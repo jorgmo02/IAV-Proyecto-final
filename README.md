@@ -19,6 +19,8 @@
     - [Cynthia](#Cynthia)
     - [Bebé](#Bebé)
 - [Técnicas utilizadas](#Técnicas-utilizadas)
+- [Pruebas realizadas](#Pruebas-realizadas)
+- [Referencias](#Referencias)
 
 
 ---
@@ -172,6 +174,16 @@ Por otro lado, la inteligencia del bebé es bastante más sencilla y está imple
 
 <br>
 <br>
+
+# __Pruebas realizadas__
+<br>
+
+
+---
+
+<br>
+<br>
+
 
 
 # __Referencias__

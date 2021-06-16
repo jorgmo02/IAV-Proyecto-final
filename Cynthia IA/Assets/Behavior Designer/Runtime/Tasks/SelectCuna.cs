@@ -43,7 +43,7 @@ namespace BehaviorDesigner.Runtime.Tasks
 
             if (target != null)
             {
-                Selection.activeObject = target.gameObject;
+                //Selection.activeObject = target.gameObject;
                 result.Value = target.gameObject;
             }
             else Debug.LogError("Target was null");
