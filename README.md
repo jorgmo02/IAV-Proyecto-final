@@ -14,7 +14,7 @@
 - [Mecánicas de la demo](#Mecánicas-de-la-demo)
 - [Diseño de la IA](#Diseño-de-la-IA)
     - [Cynthia](#Cynthia)
-        - [Alternativas exploradas](#Alternativas-analizadas-del-comportamiento-de-Cynthia)
+    - [Bebé](#Bebé)
 
 
 ---
@@ -114,5 +114,37 @@ Si el bebé no está llorando, su objetivo es encontrar al jugador: para ello, v
 
 - __Prioridades__
 
-    Inicialmente, Cynthia no priorizaba al bebé sobre el jugador, sino que se dedicaba a perseguir al jugador siempre que lo veía, incluso si su bebé estaba llorando. Esto fue descartado porque __podría provocar que el jugador se quedara estancado__, sin poder desviar la atención de Cynthia de ninguna manera (lo mismo ocurre con la situación en la que Cynthia se queda patruyando en la zona en la que está el bebé durmiendo).
+    Inicialmente, Cynthia __no priorizaba al bebé__ sobre el jugador, sino que se dedicaba a perseguir al jugador siempre que lo veía, incluso si su bebé estaba llorando. Esto fue descartado porque __podría provocar que el jugador se quedara estancado__, sin poder desviar la atención de Cynthia de ninguna manera (lo mismo ocurre con la situación en la que Cynthia se queda patruyando en la zona en la que está el bebé durmiendo).
 
+- __Selección de cuna__
+
+    El algoritmo de selección de cuna permite encontrar la más cercana, y funciona de la siguiente manera: utilizando para ello la clase SamplePosition, se crea un camino desde una SamplePosition hasta otra y se calcula la distancia de arista a arista del camino.
+
+    No obstante, este no es el comportamiento que ha habido durante todo el desarrollo. En un principio, el algoritmo que programé escogía aleatoriamente una cuna; el problema es que, de esta manera, el jugador no tenía ninguna clase de control sobre para qué servía dejar el cebo del bebé, ya que colocar al bebé en un sitio no implicaría que Cynthia se quedara por aquella zona unos instantes.
+
+    Por esto de la selección de cuna, la noche del 15 al 16 no dormí :-)
+
+- __Merodeo aleatorio__
+
+    El merodeo de Cynthia está hecho de forma que el jugador tiene varias salas en las que puede esconderse, detrás de muebles u otros objetos. Esto es así porque, en lugar de que el destino aleatorio sea simplemente un punto de la NavMesh, he hecho que el destino de la NavMesh sea un punto fijo de la habitación preestablecido y editable.
+    
+    Cynthia llega hasta ese punto de la habitación y después escoge otra sala aleatoria (en caso de que no ocurra nada digno de su atención, por supuesto).
+
+<br>
+
+## __Bebé__
+<br>
+
+El papel del bebé reside en llorar cuando se encuentra incómodo y de esta forma llamar la atención de su madre. Se calmará cuando su madre lo coja o cuando el jugador lo calme; eso sí, si el jugador lo suelta fuera de una cuna, el bebé romperá a llorar de nuevo (y en ese momento el jugador debería alejarse del mismo para evitar el peligro o calmarlo).
+
+Adicionalmente, el bebé se puede quedar llorando en una cuna, si el jugador no lo ha calmado antes de depositarlo. Esto resulta en que Cynthia irá a donde esté el bebé y lo dejará justo en el sitio del que lo ha cogido.
+
+<br>
+
+### __Alternativas analizadas del comportamiento del bebé__
+
+<br>
+
+- __Capacidad del jugador para calmar al bebé__
+
+    Valoré varias veces si eliminar esta función del juego, ya que da bastante más "poder" al jugador, pero en realidad enriquece muchísimo la jugabilidad al provocar que puedas llamar la atención de Cynthia para después volver a un estado de relativa seguridad y controlar por qué zonas se moverá la madre.
